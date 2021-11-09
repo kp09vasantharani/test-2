@@ -28,8 +28,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t $REPOSITORY_URI .
-      - docker tag $REPOSITORY_URI $REPOSITORY_URI
+      - docker build -t $798178097362.dkr.ecr.us-east-1.amazonaws.com/wipo .
+      - docker tag $798178097362.dkr.ecr.us-east-1.amazonaws.com/wipo $798178097362.dkr.ecr.us-east-1.amazonaws.com/wipo
   post_build:
     commands:
       - echo Build completed on `date`
