@@ -34,4 +34,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Push the latest Docker Image...
-      - docker push $REPOSITORY_URI
+      - docker push $798178097362.dkr.ecr.us-east-1.amazonaws.com/wipo
