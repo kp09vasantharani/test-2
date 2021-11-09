@@ -14,6 +14,7 @@ phases:
     commands:
       - aws --version
       - echo 'region - ' - $AWS_DEFAULT_REGION
+      - REPOSITORY_URI=798178097362.dkr.ecr.us-east-1.amazonaws.com/wipo
       - echo 'repository - ' $REPOSITORY_URI
       - cd src/dbt-project/
       - sed -i -e "s/\(host:\).*/\1 $REDSHIFT_HOST/" profiles.yml
